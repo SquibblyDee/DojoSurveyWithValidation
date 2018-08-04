@@ -1,0 +1,10 @@
+C:\Users\S\Google Drive\CSharp\DojoSurveyWithValidation\bin\Debug\netcoreapp2.0\DojoSurveyWithValidation.deps.json
+C:\Users\S\Google Drive\CSharp\DojoSurveyWithValidation\bin\Debug\netcoreapp2.0\DojoSurveyWithValidation.runtimeconfig.json
+C:\Users\S\Google Drive\CSharp\DojoSurveyWithValidation\bin\Debug\netcoreapp2.0\DojoSurveyWithValidation.runtimeconfig.dev.json
+C:\Users\S\Google Drive\CSharp\DojoSurveyWithValidation\bin\Debug\netcoreapp2.0\DojoSurveyWithValidation.dll
+C:\Users\S\Google Drive\CSharp\DojoSurveyWithValidation\bin\Debug\netcoreapp2.0\DojoSurveyWithValidation.pdb
+C:\Users\S\Google Drive\CSharp\DojoSurveyWithValidation\obj\Debug\netcoreapp2.0\DojoSurveyWithValidation.csproj.CoreCompileInputs.cache
+C:\Users\S\Google Drive\CSharp\DojoSurveyWithValidation\obj\Debug\netcoreapp2.0\DojoSurveyWithValidation.AssemblyInfoInputs.cache
+C:\Users\S\Google Drive\CSharp\DojoSurveyWithValidation\obj\Debug\netcoreapp2.0\DojoSurveyWithValidation.AssemblyInfo.cs
+C:\Users\S\Google Drive\CSharp\DojoSurveyWithValidation\obj\Debug\netcoreapp2.0\DojoSurveyWithValidation.dll
+C:\Users\S\Google Drive\CSharp\DojoSurveyWithValidation\obj\Debug\netcoreapp2.0\DojoSurveyWithValidation.pdb

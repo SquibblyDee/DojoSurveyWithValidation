@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Dojo Survey - Results";
+}
+@using DojoSurveyWithValidation.Models
+@model FormData
+
+
+<div class="results">
+    <h1 style="text-decoration: underline;">Submitted Info</h1>
+    <div class="categories">
+        <h2>Name:</h2>
+        <h2>Dojo Location:</h2>
+        <h2>Favorite Language:</h2>
+        <h2>Comment:</h2>
+    </div>
+    <div class="formdata">
+        <h2>@Model.Name</h2>
+        <h2>@Model.Location</h2>
+        <h2>@Model.Language</h2>
+        <h2>@Model.Comment</h2>
+    </div>
+    <form action ="/" method="get">
+        <input type="submit" value="Go Back">
+    </form>
+</div>
+
