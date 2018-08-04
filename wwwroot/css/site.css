@@ -35,10 +35,10 @@
 }
 
 .main form{
-    width: 30%;
+    width: 50%;
     border: 3px solid black;
     padding: 3%;
-    margin: 5% 10% 5% 10%;
+    margin: 5% 25% 5% 25%;
 }
 
 .results{

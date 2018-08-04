@@ -4,7 +4,7 @@ namespace DojoSurveyWithValidation.Models
 {
     public class FormData
     {
-        [Required(ErrorMessage = "Name Field Required")]
+        [Required]
         [MinLength(2)]
         [MaxLength(15)]
         [Display(Name = "Your Name:")]

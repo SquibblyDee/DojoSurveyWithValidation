@@ -5,10 +5,10 @@
 @model FormData
 <div class="main">
     <form asp-action="Result" asp-controller="Home" method="post">
-            <span asp-validation-for="Name"></span>
             <label asp-for="Name"></label>
             <input asp-for="Name">
-            <span asp-validation-for="Location"></span>
+            <span asp-validation-for="Name" class="text-danger"></span>
+            <br>
             <label asp-for="Location"></label>
             <select asp-for="Location">
                 <option>Seattle</option>
@@ -17,7 +17,8 @@
                 <option>Los Angeles</option>
                 <option>Phoenix</option>
             </select>
-            <span asp-validation-for="Language"></span>
+            <span asp-validation-for="Location" class="text-danger"></span>
+            <br>
             <label asp-for="Language"></label>
             <select asp-for="Language">
                 <option>C#</option>
@@ -26,9 +27,12 @@
                 <option>English</option>
                 <option>Spanish</option>
             </select>
-            <span asp-validation-for="Comment"></span>
+            <span asp-validation-for="Language" class="text-danger"></span>
+            <br>
             <label asp-for="Comment"></label>
             <textarea asp-for="Comment" rows="6"></textarea>
+            <span asp-validation-for="Comment" class="text-danger"></span>
+            <br>
             <input type="submit" id="submitbtn">
     </form>
 </div>

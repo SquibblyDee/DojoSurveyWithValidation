@@ -23,9 +23,8 @@ namespace DojoSurveyWithValidation.Controllers
             if(ModelState.IsValid)
             {
                 return View(data);
-                
             }
-            return RedirectToAction("Index");
+            return View("Index");
         }
 
         public IActionResult Contact()
