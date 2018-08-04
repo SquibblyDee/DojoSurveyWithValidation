@@ -20,7 +20,12 @@ namespace DojoSurveyWithValidation.Controllers
         [HttpPost("result")]
         public IActionResult Result(FormData data)
         {
-            return View(data);
+            if(ModelState.IsValid)
+            {
+                return View(data);
+                
+            }
+            return RedirectToAction("Index");
         }
 
         public IActionResult Contact()
